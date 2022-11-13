@@ -166,6 +166,9 @@ body{
     html{
         font-size: 50%;
     }
+    body {
+        height: 90vh;
+    }
     .choosePlayer{
         width: 56%;
         height: 29vh;
