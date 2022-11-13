@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="headingMain">
+        <p>Tic Tac Toe</p>
+    </div>
+    <div class="container">
+        <div class="boxes box1" ></div>
+        <div class="boxes box2"></div>
+        <div class="boxes box3"></div>
+        <div class="boxes box4"></div>
+        <div class="boxes box5"></div>
+        <div class="boxes box6"></div>
+        <div class="boxes box7"></div>
+        <div class="boxes box8"></div>
+        <div class="boxes box9"></div>
+    </div>
+    <div class="choosePlayer">
+        <div class="heading">
+            <h2>Choose Player</h2>
+        </div>
+        <div class="players">
+            <div class="player">Player 1</div>
+        </div>
+        <div class="btnDiv">
+            <button class="btn"><i class="fa-sharp fa-solid fa-xmark"></i></button>
+            <button class="btn"><i class="fa-sharp fa-solid fa-o"></i></button>
+        </div>
+    </div>
+  </div>
+  <div class="gameOverDiv">
+    <p id="result">Player 1 won</p>
+    <button id="restart">Restart</button>
+  </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
